@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "PROJECT X"
+description = "An existing social creation and collaboration prototype extended with Stories, audio discovery, saved collections, private notes, messaging, search, notifications, drafts, and account persistence flows."
+version = "1.0.0"
+id = "artifacts/project-x"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21898
+
+[services.development]
+run = "pnpm --filter @workspace/project-x run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/project-x", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/project-x/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21898"
+BASE_PATH = "/"

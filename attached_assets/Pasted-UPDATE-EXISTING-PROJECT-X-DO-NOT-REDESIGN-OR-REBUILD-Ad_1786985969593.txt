@@ -1,0 +1,448 @@
+UPDATE EXISTING PROJECT X — DO NOT REDESIGN OR REBUILD.
+
+Add ONLY the following missing features. Preserve every existing page, feature, design element, navigation item, World Ranking system, Creator Level, AI features, Communities, Projects, Creator Passport, Talent Finder, Language AI and Safety Center.
+
+==================================================
+1. STORIES
+==================================================
+
+Add a complete Stories feature.
+
+Users can:
+
+- Create Story
+- Upload photo/video
+- Record video
+- Add text
+- Add stickers
+- Add music
+- Add captions
+- Mention people
+- Add location
+- Save Story as Draft
+- Publish Story
+- View Story viewers
+- Reply to Stories
+- React to Stories
+- Share Stories
+
+Add a Story row near the top of Home.
+
+Clicking a Story opens a full-screen Story viewer with:
+
+- Progress bars
+- Previous/Next
+- Pause
+- Reply
+- Reaction
+- Share
+- More menu
+
+==================================================
+2. MUSIC / AUDIO LIBRARY
+==================================================
+
+Add music selection to:
+
+- Stories
+- Reels
+- Video creation
+
+Music screen:
+
+Search
+Trending
+Popular
+For You
+Saved
+Recently Used
+
+Each track:
+
+Track name
+Artist
+Duration
+Preview
+Use Audio
+Save Audio
+
+Use fictional/demo tracks in the prototype.
+
+Do NOT use real copyrighted music without rights.
+
+==================================================
+3. USE THIS AUDIO
+==================================================
+
+When watching a Reel/video that contains audio, allow the user to open its audio page.
+
+Show:
+
+🎵 Audio name
+Creator
+Number of creations using this audio
+
+Buttons:
+
+Use Audio
+Save Audio
+Share Audio
+
+When "Use Audio" is clicked:
+
+Open Reel/Story creation.
+
+Automatically attach the selected audio.
+
+Show:
+
+"Creating with this audio"
+
+Also add:
+
+"View videos using this audio"
+
+This should create the flow:
+
+WATCH
+→ DISCOVER AUDIO
+→ USE AUDIO
+→ CREATE
+→ PUBLISH
+
+==================================================
+4. AUDIO PAGE
+==================================================
+
+Create an Audio page containing:
+
+Audio information
+Creator
+Popular videos
+Recent videos
+Number of creations
+
+Actions:
+
+Use Audio
+Save Audio
+Share
+
+==================================================
+5. SAVED CONTENT
+==================================================
+
+Add Save functionality to content.
+
+Users can save:
+
+Posts
+Photos
+Videos
+Reels
+Music
+Audio
+Creators
+Projects
+
+Add:
+
+Saved → Collections
+
+Users can create collections such as:
+
+AI Ideas
+Music
+Startup
+Design
+Watch Later
+
+==================================================
+6. PRIVATE NOTES
+==================================================
+
+Add a private Notes section.
+
+Users can:
+
+Create note
+Edit
+Delete
+Search
+Pin
+Archive
+
+Notes are PRIVATE by default.
+
+Do not make Notes public unless the user explicitly shares them.
+
+==================================================
+7. MESSAGING
+==================================================
+
+Improve the existing messaging area into a complete social messaging system.
+
+Support:
+
+1-to-1 chat
+Group chat
+Message requests
+Unread messages
+Images
+Videos
+Files
+Emoji
+Replies
+Reactions
+Forward
+Delete
+Block
+Report
+
+Make conversations fully clickable in the prototype.
+
+==================================================
+8. LANGUAGE AI IN CHAT
+==================================================
+
+Integrate Language AI into messaging.
+
+Example:
+
+Uzbek user:
+"Salom, qanday ketyapti?"
+
+English user receives:
+"Hi, how is it going?"
+
+Add:
+
+"View Original"
+
+Users should be able to communicate naturally without manually translating.
+
+Add setting:
+
+Automatic Translation ON/OFF
+
+==================================================
+9. ACCOUNT PERSISTENCE / AUTHENTICATION
+==================================================
+
+Add realistic authentication screens.
+
+Login methods:
+
+Email
+Google
+X
+Discord
+
+Include:
+
+Sign Up
+Log In
+Log Out
+Forgot Password
+Account Recovery
+Remember Me
+
+Prototype should demonstrate that the user's:
+
+Profile
+Creations
+Projects
+Saved items
+Messages
+Notes
+Creator Level
+World Rank
+
+remain associated with the account after returning.
+
+==================================================
+10. GLOBAL SEARCH
+==================================================
+
+Add a global search system.
+
+Search:
+
+People
+Creators
+Posts
+Reels
+Projects
+Communities
+Music
+Skills
+
+Example:
+
+Search "Python"
+
+Show:
+
+Developers
+Projects
+Communities
+Relevant creations
+
+Add filters:
+
+Creator Level
+Skill
+Projects
+Collaborations
+Category
+
+Integrate with AI Talent Finder.
+
+==================================================
+11. NOTIFICATION CENTER
+==================================================
+
+Add Notifications.
+
+Examples:
+
+💡 Someone found your creation Helpful
+🔥 Someone was Inspired
+🤝 Collaboration request
+💬 New message
+🚀 Project invitation
+🏆 Creator Level increased
+🌍 World Rank changed
+🎓 Someone Learned from you
+🎵 Someone used your audio
+
+Include:
+
+Mark as read
+Mark all as read
+Notification settings
+
+==================================================
+12. DRAFTS
+==================================================
+
+Add Drafts.
+
+Users can save unfinished:
+
+Posts
+Reels
+Stories
+Projects
+
+Add:
+
+Continue Editing
+
+==================================================
+13. ACTIVITY / HISTORY
+==================================================
+
+Add:
+
+Recently Viewed
+Recently Saved
+Recently Used Audio
+Recently Created
+Recently Visited Creators
+
+==================================================
+14. CONTINUE WHERE YOU LEFT OFF
+==================================================
+
+When the user returns to PROJECT X, show relevant continuation cards.
+
+Example:
+
+"Welcome back, Behruzbek."
+
+Continue editing your Reel
+3 unread messages
+2 project invitations
+Your ranking increased
+Recently saved audio
+Your AI has something for you
+
+==================================================
+15. SAFETY CONTROLS
+==================================================
+
+Every:
+
+Post
+Reel
+Story
+Profile
+Message
+Community
+
+should provide:
+
+Report
+Block
+Restrict
+
+Integrate these with the existing Safety Center.
+
+==================================================
+16. MUSIC RIGHTS MODEL
+==================================================
+
+For prototype purposes, represent music as rights-managed content.
+
+Music metadata should conceptually support:
+
+Track ID
+Title
+Artist
+Rights Holder
+License Status
+Allowed Uses
+Territories
+Expiration
+Attribution Requirements
+
+Use fictional/demo music.
+
+Examples:
+
+"Cleared for PROJECT X Stories & Reels"
+
+or:
+
+"Original Audio — Creator Owned"
+
+Do NOT imply that PROJECT X owns commercial music rights.
+
+==================================================
+FINAL REQUIREMENT
+==================================================
+
+Do not rebuild PROJECT X.
+
+Do not redesign existing pages.
+
+Do not remove existing features.
+
+Only integrate the features listed above naturally into the current PROJECT X architecture and navigation.
+
+Make all important flows clickable and demonstrate:
+
+Story → Music → Use Audio → Create
+
+Video → Audio → Use Audio → Create
+
+Save → Collection
+
+Login → Account → Return
+
+Search → Creator → Message
+
+Message → Automatic Translation
+
+Notification → Related Content
